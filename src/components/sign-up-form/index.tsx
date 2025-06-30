@@ -21,9 +21,7 @@ const SignUpForm = () => {
         />
         <button
           className={styles.get_started}
-          onClick={() =>
-            window.location.assign('https://app.loch.one/welcome.')
-          }
+          onClick={() => window.location.assign('https://app.loch.one/welcome')}
         >
           <Typography
             variant='button-label'
