@@ -13,10 +13,18 @@ const SignUpForm = () => {
         </Typography>
         <input
           className={styles.input_text}
-          type='text'
           placeholder='Your email address'
+          type='email'
+          id='email'
+          name='email'
+          required
         />
-        <button className={styles.get_started}>
+        <button
+          className={styles.get_started}
+          onClick={() =>
+            window.location.assign('https://app.loch.one/welcome.')
+          }
+        >
           <Typography
             variant='button-label'
             color='#FFFFFF'
