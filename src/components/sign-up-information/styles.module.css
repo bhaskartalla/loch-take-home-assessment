@@ -1,0 +1,62 @@
+.signupInformationWrapper {
+  background: radial-gradient(
+    79.84% 79.84% at 32.27% 91.27%,
+    rgba(31, 169, 17, 0.810119) 17.21%,
+    #2f15d0 64.58%,
+    rgba(0, 0, 0, 85%) 100%
+  );
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 46px 0 46px 96px;
+}
+
+.top {
+  display: grid;
+  grid-template-columns: 322px auto;
+  align-items: center;
+  gap: 46px;
+  height: 19rem;
+  /* border: 1px solid black; */
+}
+
+.middle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 19.125rem;
+  padding-right: 2rem;
+  /* border: 1px solid black; */
+}
+
+.dashboard_desc {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  gap: 0.5rem;
+}
+
+.dashboard {
+  margin-left: -42px;
+}
+
+.testimonial_text {
+  padding-right: 2rem;
+  text-align: right;
+  height: 3.125rem;
+  /* border: 1px solid black; */
+}
+
+.divider {
+  width: 100%;
+  height: 1px;
+  background-color: #e5e5e680;
+}
+
+.bottom {
+  display: flex;
+  align-items: end;
+  gap: 40px;
+  padding: 16px 0;
+  /* border: 1px solid black; */
+}

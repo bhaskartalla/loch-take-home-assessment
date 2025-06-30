@@ -1,0 +1,13 @@
+.signUpMain {
+  display: grid;
+  grid-template-columns: 5fr 4fr;
+  height: 100vh;
+}
+
+.signUpInformation {
+}
+
+.signUpForm {
+  display: grid;
+  place-items: center;
+}

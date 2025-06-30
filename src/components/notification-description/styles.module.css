@@ -1,0 +1,6 @@
+.notifications_desc {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  max-width: 20.125rem;
+}
